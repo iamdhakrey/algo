@@ -57,7 +57,7 @@ class LinkedList:
             return
         start = 0
         while curr_head.next:
-            start +1
+            start = +1
             if start == location - 1:
                 curr_head.next = curr_head.next
 
